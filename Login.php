@@ -1,9 +1,12 @@
 <html>
 <head>
-<title>Login.php</title>
+<title>UHI Tunes</title>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
+<header>
+    <h1>UHI Tunes</h1>
+</header>
 <h2>Miracle Security System</h2>
 
 <h2>Existing User - Please enter your Email address and password</h2>

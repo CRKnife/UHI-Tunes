@@ -1,0 +1,118 @@
+/* 	eCommerce example code for UHI Tunes 
+	Basic CSS 								*/
+	
+header{
+        background: #3b332b;
+        color:white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+body{
+		background: url("../images/background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; 
+		background-attachment: fixed;
+		text-align: left;
+	}
+
+nav{
+    background-color: beige;
+}
+ul{
+    list-style-type: none;
+   	top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 30px;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: burlywood;
+}
+
+li a.active {
+    background-color:#3b332b;
+    color:white;
+}
+
+footer {background: #3b332b;color:white;}
+
+h1,h2{
+		font-size: 28px;
+		text-align: center;
+		color: white;
+		margin-top: 5px;
+	}
+	
+	table{
+		width: 70%;
+		border: 1px solid white;
+		position: relative;
+	}
+
+	th{
+		height: 50px;
+		padding: 15px;
+		text-align: left;
+		background-color: white;
+		color: black;
+	}
+	td{
+		height: 50px;
+		padding: 15px;
+		text-align: left;
+		text-align: left;
+		background-color: white;
+		color: black;
+	}
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: burlywood;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: beige;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+}
+div.container {
+    width: 100%;
+    border: 1px solid #3b332b;
+}
+article{
+    background-color: beige;
+    width: 50%;
+    border: 10px solid #3b332b;
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+aside{
+    background-color: beige;
+    width: 20%;
+    border: 10px solid #3b332b;
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    float: right;
+    
+}
